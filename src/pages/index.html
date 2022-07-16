@@ -17,13 +17,24 @@
 </head>
 <body>
     
-    <form action="../classes/home.php" method="post">
-        <label for="name">Enter Youe Name : <input type="text" name="name" placeholder="Enter Name"></label>
-        <br/>
-        <br/>
-        <label for="age">Enter Your Age : <input type="number" name="age" placeholder="Enter Age"></label>
-        <input type="submit" name="submit" value="Submit" />
-    </form>
+    <section class="my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <form action="../classes/home.php" method="post">
+                        <div class="form-group">
+                            <label for="name">Enter Youe Name : <input type="text" name="name" class="form-control" placeholder="Enter Name"></label>
+                        </div>
+                        <div class="form-gourp">
+                            <label for="age">Enter Your Age : <input type="number" class="form-contorl" name="age" placeholder="Enter Age"></label>
+                        </div>
+                        <input type="submit" name="submit" value="Submit" class="btn btn-success btn-sm" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
 
 </body>
